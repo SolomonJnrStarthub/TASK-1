@@ -1,0 +1,302 @@
+
+.big-text{
+    font-size: 5rem;
+    font-weight: 600;
+    text-size-adjust: 90rem;
+
+}
+.btns{
+    width: 30px !important;
+    height: 30px !important;
+    border: 2px solid white !important;
+}
+@media screen and (min-width:200px){
+    .text-c{
+        max-height: 300px !important;
+        max-width: 50% !important;
+        position: relative !important;
+        left: 23.6% !important;
+        top: 70px !important;
+
+    }
+}
+
+@media screen and (max-width:600px){
+    .big-text{
+        font-size: 2.5rem;
+        font-weight: 750;
+    }
+    .bl{
+        flex-direction: column !important;
+    }
+    .hb{
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 0.1rem;
+    }
+    .hb2{
+        text-decoration: none;
+        font-weight: 200;
+        font-size: 0.5rem;
+    }
+    .c1{
+        margin-top: 120px !important;
+    }
+    .text-c{
+        max-height: 400px !important;
+        width: 600px !important;
+        position: absolute !important;
+        margin-left: 2% !important;
+        /* padding-left: 900px !important; */
+        /* right: 30% !important; */
+        /* left: 23.6% !important; */
+        top: 70px !important;
+
+    }
+    .caro1{
+        --logo-fill: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #373a3c;
+    line-height: 1.25;
+    letter-spacing: -.3px;
+    font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    max-height: 300x !important;
+    min-width: 300px !important;
+    /* position: relative !important; */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url(https://cdn.lyft.com/brochure/walkthrough-01.771fb4d9.jpg);
+    }
+    
+    .phone-text{
+        font-size: xx-small !important;
+    }
+    .sf{
+        line-height: 17px;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .faq{
+        font-size: 2.6rem !important;
+    }
+    .fa{
+        font-size: 2rem !important;
+    }
+    .ques{
+        width: 100% !important;
+    }
+    ._2YyZ7P{
+        font-size: 1.95rem !important;
+    }
+}
+.btns2{
+    width: 30px !important;
+    height: 30px !important;
+    border: 2px solid white !important;
+    border-radius: 90px !important;
+}
+.hb{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+.hb2{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.hd-1:hover{
+    text-decoration: underline;
+}
+.form-group{
+    position: relative;
+}
+.form-control{
+    height: 60px;
+}
+.form-control:focus{
+    box-shadow: none;
+    color: black;
+}
+#l{
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    color: #9999;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+.form-control:focus ~ #l {
+    left: 5px;
+    top: -1px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: smaller;
+}
+.bg-c{
+    -webkit-tap-highlight-color: transparent;
+    --logo-fill: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #373a3c;
+    line-height: 1.25;
+    letter-spacing: -.3px;
+    font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    box-sizing: inherit;
+    height: 400px;
+    width: 100%;
+    background-image: url(https://cdn.lyft.com/brochure/bg_img.6c6e8a21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+/* } */
+ /* .phone{
+    position: absolute;
+    height: 500px;
+    width: 22% !important;
+    background-color:grey;
+    top: 20%;
+    left: 30%; */
+/* }  */
+
+.bg-c{
+    -webkit-tap-highlight-color: transparent;
+--logo-fill: #fff;
+font-size: 1rem;
+font-weight: 300;
+color: #373a3c;
+line-height: 1.25;
+letter-spacing: -.3px;
+font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+box-sizing: inherit;
+height: 500px;
+width: 100%;
+background-image: url(https://cdn.lyft.com/brochure/bg_img.6c6e8a21.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.phone{
+    -webkit-tap-highlight-color: transparent;
+--logo-fill: #fff;
+font-size: 1rem;
+font-weight: 300;
+color: #373a3c;
+/* line-height: 1.25;
+letter-spacing: -.3px;
+font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+box-sizing: inherit; */
+position: relative;
+top: 10%;
+background-size: contain;
+background-position: 50%;
+background-repeat: no-repeat;
+/* margin-left: auto;
+margin-right: auto; */
+height: 600px;
+width: 600px;
+/* padding: 43px 86px 66px 89px; */
+background-image: url(https://cdn.lyft.com/legoland/phone-carousel/phone@1x.c7273ad8.png);
+}
+
+
+.text-c{
+    height: 70.7%;
+    width: 21%;
+    position: absolute;
+    right: 40px !important;
+    top: 11.2%;
+   margin-left: 16.2%;
+}
+.caro1{
+    --logo-fill: #fff;
+font-size: 1rem;
+font-weight: 300;
+color: #373a3c;
+line-height: 1.25;
+letter-spacing: -.3px;
+font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+box-sizing: inherit;
+height: 419px;
+width: 232px;
+/* position: relative !important; */
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+background-image: url(https://cdn.lyft.com/brochure/walkthrough-01.771fb4d9.jpg);
+}
+
+.caro2{
+    --logo-fill: #fff;
+font-size: 1rem;
+font-weight: 300;
+color: #373a3c;
+line-height: 1.25;
+letter-spacing: -.3px;
+font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+box-sizing: inherit;
+height: 419px;
+width: 232px;
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+background-image: url(https://cdn.lyft.com/brochure/walkthrough-02.c8919e5f.jpg);
+}
+.caro3{
+    --logo-fill: #fff;
+font-size: 1rem;
+font-weight: 300;
+color: #373a3c;
+line-height: 1.25;
+letter-spacing: -.3px;
+font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+box-sizing: inherit;
+height: 419px;
+width: 232px;
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+background-image: url(https://cdn.lyft.com/brochure/walkthrough-03.7036dfed.jpg);
+}
+.caro4{
+    --logo-fill: #fff;
+font-size: 1rem;
+font-weight: 300;
+color: #373a3c;
+line-height: 1.25;
+letter-spacing: -.3px;
+font-family: Lyft Pro,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+user-select: none;
+-webkit-tap-highlight-color: transparent;
+box-sizing: inherit;
+height: 419px;
+width: 232px;
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+background-image: url(https://cdn.lyft.com/brochure/walkthrough-04.d7880d75.jpg);
+}
+
+
+.n{
+    animation: fall-apart 0.5s ease-out;
+}
+@keyframes fall-apart {
+    100% {
+        transform: rotateZ(20deg) translateY(8rem);
+        opacity: 0;
+    }
+}
